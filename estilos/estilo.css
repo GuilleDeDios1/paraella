@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://www.xtrafondos.com/thumbs/1_7115.jpg");   
+}
+#encuesta{
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-radius: 15px;
+    padding: 20px;
+}
+#titulo{
+    margin-top: 125px;
+    color: white;
+}
+#botones{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+#imagen{
+    height: 150%;
+    width: 150%;
+    position: relative;
+    left: -50px;
+    bottom: -50px;
+}
+#mensaje{
+    position:relative;
+    bottom: -85px;
+    left: 90px;
+    display: none;
+}
+
+@media (max-width:576px){
+    #encuesta{
+        height: 550px;
+        width: 325px;
+        margin: auto;
+        margin-top: 125px;
+    }
+    #mensaje{
+        position:relative;
+        bottom: -75px;
+        left: 65px;
+        display: none;
+    }
+}
+#parrafo{
+    display: none;
+}
+#ancla{
+    text-decoration: none;
+}
